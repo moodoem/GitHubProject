@@ -18,7 +18,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Here we will explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         city = input("Which city do you want to analyze? Please choose from the following: Chicago, New York City, Washington.\n")
@@ -120,7 +120,7 @@ def time_stats(df, city, month, day):
     
     # MONTH 3: print result for most common month
     if month != 'all':
-        print('Since you selected',month.title(),', the most common month is', calendar.month_name[common_month], '.\n')
+        print('Since you selected',month.title(),', the most common month is', calendar.month_name[common_month], '. If you want to analyze several months, please choose "all" in the previous step.\n')
     
     else:
         print('The most common month is', calendar.month_name[common_month], '.\n')
