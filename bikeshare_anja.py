@@ -120,7 +120,7 @@ def time_stats(df, city, month, day):
     
     # MONTH 3: print result for most common month
     if month != 'all':
-        print('Since you selected',month.title(),', the most common month is', calendar.month_name[common_month], '.\n')
+        print('Since you selected',month.title(),', the most common month is', calendar.month_name[common_month], '. If you want to analyze several months, please choose "all" in the previous step.\n')
     
     else:
         print('The most common month is', calendar.month_name[common_month], '.\n')
