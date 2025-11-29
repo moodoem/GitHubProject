@@ -1,7 +1,7 @@
 import time
 import pandas as pd
 import numpy as np
-# import a calendar for complete names for moth and weekday
+# import a calendar for complete names for month and weekday
 import calendar as calendar
 
 CITY_DATA = { 'chicago': 'chicago.csv',
