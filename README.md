@@ -16,5 +16,5 @@ This project will uncover bike share usage patterns by comparing the system usag
 * Data base file: _"new_york_city.csv"_
 
 ### Credits
-_https://stackoverflow.com/questions/69084527/what-is-difference-between-git-check-ignore-and-git-ls-files-other-igno_
-_https://www.udacity.com_
+* _https://stackoverflow.com/questions/69084527/what-is-difference-between-git-check-ignore-and-git-ls-files-other-igno_
+* _https://www.udacity.com_
